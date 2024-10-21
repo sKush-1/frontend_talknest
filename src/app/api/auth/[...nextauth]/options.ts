@@ -42,6 +42,7 @@ export const authOption: AuthOptions = {
         return true;
 
       } catch (error) {
+        alert(error);
         console.log(error)
         return false;
       }
