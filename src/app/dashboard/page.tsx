@@ -1,3 +1,5 @@
+"use client"
+
 import DashboardNav from "@/components/dashboard/DashboardNav";
 import React from "react";
 import { authOption, CustomSession, CustomUser } from "../api/auth/[...nextauth]/options";
